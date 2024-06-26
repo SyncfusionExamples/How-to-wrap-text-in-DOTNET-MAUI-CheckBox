@@ -21,6 +21,6 @@ The following code example illustrate how to set LineBreakMode in SfCheckBox.
 ```
    SfCheckBox  sfCheckBox  = new SfCheckBox();
    sfCheckBox.Text = "By clicking here, I state that I have read and understood the terms and       conditions.";
-   sfCheckBox.LineBreakMode = "WordWrap"; 
+   sfCheckBox.LineBreakMode = LineBreakMode.WordWrap; 
 
 ```
